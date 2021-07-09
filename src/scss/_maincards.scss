@@ -1,0 +1,40 @@
+@use "./variables";
+@use "./mixins";
+/* ===================================== 
+        ------Main------
+======================================== */
+.main {
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+    background-color: rgb(238, 237, 237);
+    padding: 1rem;
+    .card {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #e1e1e1;
+        border-bottom: 8px solid gray;
+        border-radius: 6px;
+        margin: 10px;
+        a {
+            color: #278da4;
+            text-decoration: none;
+        }
+        p {
+            margin-bottom: 20px;
+            padding: 50px;
+            
+        }
+        h1 {
+            color: variables.$siteThemeColor; 
+            margin: 5px 0 0;
+            line-height: 40px;
+        }
+        .btn {
+            @include mixins.btnStyles();
+        }
+    }
+}
+/* ===================================== 
+        ------/Main------
+======================================== */
