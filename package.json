@@ -5,10 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist" 
   },
   "keywords": [],
   "author": "",
