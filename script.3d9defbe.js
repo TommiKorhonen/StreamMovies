@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./..\\img\\movies.jpg":[["movies.f630d2af.jpg","lgxD"],"lgxD"]}],"Kaga":[function(require,module,exports) {
 "use strict";require("../scss/main.scss");
 },{"../scss/main.scss":"fx60"}]},{},["Kaga"], null)
-//# sourceMappingURL=/StreamMovies/script.cb0b3d85.js.map
+//# sourceMappingURL=/StreamMovies/script.3d9defbe.js.map
